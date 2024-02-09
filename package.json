@@ -1,0 +1,32 @@
+{
+  "name": "swagger-express",
+  "version": "1.0.0",
+  "description": "swagger implemention with express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prmalakoti/swagger-express.git"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "author": "Prashnat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prmalakoti/swagger-express/issues"
+  },
+  "homepage": "https://github.com/prmalakoti/swagger-express#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "swagger-autogen": "^2.23.4",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
